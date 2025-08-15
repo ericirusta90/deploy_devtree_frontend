@@ -20,7 +20,7 @@ export default function DevTreeInput({ item, handleUrlChange, handleEnableLink }
             ></div>
             <input
                 type="text"
-                className="flex-1 border border-gray-200 rounded-lg"
+                className="w-full flex-1 border border-gray-200 rounded-lg"
                 value={item.url}
                 onChange={handleUrlChange}
                 name={item.name} 
